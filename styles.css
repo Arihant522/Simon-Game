@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.panel{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    display: inline-block;
+}
+.panel:hover{
+    border: 2px solid white;
+}
+.border-top-left{
+  background-color: red;
+  border-top-left-radius: 50%;
+}
+.border-top-right{
+    background-color: green;
+    border-top-right-radius: 50%;
+}
+.border-bottom-left{
+    background-color: blue;
+    border-bottom-left-radius: 50%;
+}
+.border-bottom-right{
+    background-color: yellow;
+    border-bottom-right-radius: 50%;
+}
+/* class for active blocks
+*/
+.active{
+    background-color: white;
+}

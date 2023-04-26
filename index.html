@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Simon's Game</title>
+   
+</head>
+<body>
+    <p>WELCOME TO SIMON'S GAME</p>
+    <div>
+    <div class="row">
+        <div class="panel border-top-left" id="panel-one" onclick="panelClicked(event.currentTarget)">
+        </div>
+         <div class="panel border-top-right" id="panel-two" onclick="panelClicked(event.currentTarget)">
+        </div>
+    </div>
+    <div class="row">
+        <div class="panel border-bottom-left" id="panel-three" onclick="panelClicked(event.currentTarget)">
+        </div>
+         <div class="panel border-bottom-right" id="panel-four" onclick="panelClicked(event.currentTarget)">
+        </div>
+    </div>
+</div>
+<p>Level <span id="level-number">1</span></p>
+<script src="gameEngine.js"></script>
+</body>
+</html>
